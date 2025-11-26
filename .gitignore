@@ -1,0 +1,45 @@
+# === MAIN PROJECT ROOT (.git should be here) ===
+
+# --- Global Logs & Temporary Files ---
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# --- API Keys & Secrets ---
+# CRITICAL: Ignores the file where your Pinata keys are stored.
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Hardhat / Smart Contracts (Artifacts are build outputs) ---
+/artifacts
+/cache
+/coverage
+/typechain
+/typechain-types
+/node_modules
+/build
+
+# --- Frontend Directory (vericarbon-frontend) ---
+# We ignore the entire node_modules folder inside the frontend
+/vericarbon-frontend/node_modules
+/vericarbon-frontend/dist
+/vericarbon-frontend/dist-ssr
+/vericarbon-frontend/build
+
+# --- IDE/OS Files ---
+.vscode/*
+!.vscode/extensions.json  # Optional: Keep extensions list
+.idea
+.DS_Store
