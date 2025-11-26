@@ -24,7 +24,7 @@ const AppNavbar = ({ account, role, connectWallet }) => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg" className="mb-4 shadow-sm">
       <Container>
-        <Navbar.Brand as={Link} to="/" className="fw-bold text-uppercase d-flex align-items-center">
+        <Navbar.Brand as={Link} to="/" className="fw-bold d-flex align-items-center">
           <FaLeaf className="me-2 text-success" /> VeriCarbon
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
