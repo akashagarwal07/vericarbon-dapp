@@ -176,7 +176,7 @@ Access the application at `http://localhost:5173`.
 
 ##  License
 
-This project is for educational and research purposes as part of the **CSD436: Blockchain Technology** course.
+This project is for educational and research purposes.
 
 **Authors:**
 
